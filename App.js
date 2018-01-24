@@ -2,6 +2,8 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import Header from './app/components/header';
+// import Graph from './app/components/graph';
+          // <Graph/>
 
 export default class App extends React.Component {
   render() {
@@ -13,7 +15,7 @@ export default class App extends React.Component {
       </View>
     );
   }
-};
+}
 
 const styles = StyleSheet.create({
   container: {
